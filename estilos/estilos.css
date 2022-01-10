@@ -1,0 +1,113 @@
+/*
+Estilo general
+*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    background-color: #fef8ef;
+}
+/*Ocultando scroll*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*
+Estilo a titulos
+*/
+h1
+{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+h2
+{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+/*
+Menu de niveles
+*/
+.menu
+{
+    width: 200px;
+    margin: auto;
+    border: solid black 5px;
+}
+
+.menu li
+{
+    display: block;
+    border: solid black 5px;
+}
+
+
+.menu li a{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover
+{
+    background: orange;
+
+}
+
+/*
+Estilos de parrafo
+*/
+#dias
+{
+    text-align: center;
+}
+
+#dias h2
+{
+    padding-top: 60px;
+}
+
+#dias p
+{
+    font-size: 20px;
+    
+}
+
+#dias img
+{
+    height: 300px;
+    width: 365px;
+}
+
+.parrafoSecundario
+{
+    padding-bottom: 70px;
+}
+
+/*
+Estilo a pie de pagina
+*/
+footer
+{
+   bottom:0px;
+   height:30px;
+   width:100%;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
